@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'TT Hover Pro Trial Medium';
+    src: url('../fonts/TT-Hoves-Pro-Trial-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'TT Hover Pro Trial Regular';
+    src: url('../fonts/TT-Hoves-Pro-Trial-Regular.ttf');
+}
+
+html, body {
+    background-color: #F3F5F7;
+}
+
+@layer components {
+  .container {
+    width: 1520px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1660px) {
+  .container {
+      width: 90%;
+      min-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+      width: 95%;
+      min-width: 95%;
+  }
+}

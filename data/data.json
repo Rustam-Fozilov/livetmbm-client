@@ -1,0 +1,256 @@
+{
+    "regions": [
+        {
+            "id": 1,
+            "name": "Тошкент шаҳри",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Тошкент Camera 001",
+                    "link": "http://cam1.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Тошкент Camera 002",
+                    "link": "http://cam1.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name":"Тошкент Camera 003",
+                    "link": "http://cam1.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Андижон вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Андижон Camera 001",
+                    "link": "http://cam1.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Андижон Camera 002",
+                    "link": "http://cam1.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name":"Андижон Camera 003",
+                    "link": "http://cam1.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Бухоро вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Бухоро Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Бухоро Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name":"Бухоро Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Фарғона вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Фарғона вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Фарғона вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name":"Фарғона вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Қашқадарё вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Қашқадарё вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Қашқадарё вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name":"Қашқадарё вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Навоий вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Навоий вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Навоий вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name":"Навоий вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Наманган вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Наманган вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Наманган вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name": "Наманган вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Самарқанд вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Самарқанд вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Самарқанд вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name": "Самарқанд вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Сурхондарё вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Сурхондарё вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Сурхондарё вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name": "Сурхондарё вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Сирдарё вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Сирдарё вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Сирдарё вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name": "Сирдарё вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Тошкент вилояти",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Тошкент вилояти Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Тошкент вилояти Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name": "Тошкент вилояти Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Қорақалпоғистон Республикаси",
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": "Қорақалпоғистон Республикаси Camera 001",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 2,
+                    "name": "Қорақалпоғистон Республикаси Camera 002",
+                    "link": "http://cam.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name": "Қорақалпоғистон Республикаси Camera 003",
+                    "link": "http://cam.tmbm.uz"
+                }
+            ]
+        }
+    ]
+}
