@@ -55,7 +55,7 @@ const props = defineProps({
 
 const changeCameraLink = (id) => {
     cameraLink.value = props.selectedRegion.cameras.find(camera => camera.id === id).link
-    cameraName.value = locale.value = props.selectedRegion.cameras.find(camera => camera.id === id).name
+    cameraName.value = props.selectedRegion.cameras.find(camera => camera.id === id).name
     selectedCameraId.value = id
 
     const element = document.getElementById('frame-area')

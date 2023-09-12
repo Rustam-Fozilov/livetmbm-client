@@ -6,7 +6,7 @@
                     <a href="https://tmbm.uz/" target="_blank">
                         <span class="flex gap-5 items-center">
                             <img src="~/assets/logo-tmbm.svg" alt="logo">
-                            <div class="font-tt-hoves-medium text-base">
+                            <div class="font-tt-hoves-medium text-base w-60">
                                 {{
                                     locale === 'ruz' ?
                                     'Тиббиёт ва фармацевтика ходимларининг малакасини баҳолаш маркази' :
