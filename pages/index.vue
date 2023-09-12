@@ -14,6 +14,10 @@
                     <video-frame :videoLink="cameraLink" :selectedRegion="selectedRegion"/>
                 </div>
             </div>
+
+            <div>
+                <the-footer/>
+            </div>
         </div>
     </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="font-tt-hoves-medium text-base">
-            {{ cameraName }}
+            {{ locale === 'ruz' ? cameraName.ruz : locale === 'uz' ? cameraName.uz : cameraName.ru }}
         </div>
         <div id="frame-area" class="h-[650px] w-full lg-frame-height">
             <iframe
@@ -36,6 +36,7 @@
 <script setup>
 
 
+const locale = useLocale()
 const cameraLink = useCameraLink()
 const cameraName = useCameraName()
 const selectedCameraId = useSelectedCameraId()
@@ -54,7 +55,7 @@ const props = defineProps({
 
 const changeCameraLink = (id) => {
     cameraLink.value = props.selectedRegion.cameras.find(camera => camera.id === id).link
-    cameraName.value = props.selectedRegion.cameras.find(camera => camera.id === id).name
+    cameraName.value = locale.value = props.selectedRegion.cameras.find(camera => camera.id === id).name
     selectedCameraId.value = id
 
     const element = document.getElementById('frame-area')

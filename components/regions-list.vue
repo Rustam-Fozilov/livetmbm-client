@@ -8,7 +8,11 @@
                 :class="selectedRegion.id === region.id ? 'bg-primary-blue text-white' : ''"
                 class="cursor-pointer"
                 >
-                    <div class="py-5 px-7">{{ region.name }}</div>
+                    <div class="py-5 px-7">
+                        {{
+                            locale === 'ruz' ? region.name.ruz : locale === 'uz' ? region.name.uz : region.name.ru
+                        }}
+                    </div>
                     <div v-if="index !== data.regions.length - 1" class="h-[1px] w-full bg-black opacity-20"></div>
                 </div>
             </div>
@@ -20,6 +24,7 @@
 import data from '../data/data.json'
 
 
+const locale = useLocale()
 const cameraLink = useCameraLink()
 const cameraName = useCameraName()
 const selectedRegion = useSelectedRegion()

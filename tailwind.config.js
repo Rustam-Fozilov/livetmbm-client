@@ -16,7 +16,8 @@ module.exports = {
       },
       colors: {
         'soft-white': '#F3F5F7',
-        'primary-blue': '#1D387F'
+        'primary-blue': '#1D387F',
+        'primary-black': '#252A2E'
       },
       fontSize: {
         'base': '18px',

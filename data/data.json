@@ -2,252 +2,444 @@
     "regions": [
         {
             "id": 1,
-            "name": "Тошкент шаҳри",
+            "name": {
+                "ruz": "Тошкент шаҳри",
+                "uz": "Toshkent shahri",
+                "ru": "город Ташкент"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Тошкент Camera 001",
+                    "name": {
+                        "ruz": "Тошкент Camera 001",
+                        "uz": "Toshkent Camera 001",
+                        "ru": "Ташкент Camera 001"
+                    },
                     "link": "http://cam1.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Тошкент Camera 002",
+                    "name": {
+                        "ruz": "Тошкент Camera 002",
+                        "uz": "Тошкент Camera 002",
+                        "ru": "Тошкент Camera 002"
+                    },
                     "link": "http://cam1.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name":"Тошкент Camera 003",
+                    "name": {
+                        "ruz": "Тошкент Camera 003",
+                        "uz": "Тошкент Camera 003",
+                        "ru": "Тошкент Camera 003"
+                    },
                     "link": "http://cam1.tmbm.uz"
                 }
             ]
         },
         {
             "id": 2,
-            "name": "Андижон вилояти",
+            "name": {
+                "ruz": "Андижон вилояти",
+                "uz": "Andijon viloyati",
+                "ru": "Андижанская область"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Андижон Camera 001",
+                    "name": {
+                        "ruz": "Андижон Camera 001",
+                        "uz": "Andijon Camera 001",
+                        "ru": "Андижанская Camera 001"
+                    },
                     "link": "http://cam1.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Андижон Camera 002",
+                    "name": {
+                        "ruz": "Андижон Camera 002",
+                        "uz": "Andijon Camera 002",
+                        "ru": "Андижанская Camera 002"
+                    },
                     "link": "http://cam1.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name":"Андижон Camera 003",
+                    "name": {
+                        "ruz": "Андижон Camera 003",
+                        "uz": "Andijon Camera 003",
+                        "ru": "Андижанская Camera 003"
+                    },
                     "link": "http://cam1.tmbm.uz"
                 }
             ]
         },
         {
             "id": 3,
-            "name": "Бухоро вилояти",
+            "name": {
+                "ruz": "Бухоро вилояти",
+                "uz": "Buxoro viloyati",
+                "ru": "Бухарская область"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Бухоро Camera 001",
+                    "name": {
+                        "ruz": "Бухоро Camera 001",
+                        "uz": "Buxoro Camera 001",
+                        "ru": "Бухарская Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Бухоро Camera 002",
+                    "name": {
+                        "ruz": "Бухоро Camera 002",
+                        "uz": "Buxoro Camera 002",
+                        "ru": "Бухарская Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name":"Бухоро Camera 003",
+                    "name": {
+                        "ruz": "Бухоро Camera 003",
+                        "uz": "Buxoro Camera 003",
+                        "ru": "Бухарская Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 4,
-            "name": "Фарғона вилояти",
+            "name": {
+                "ruz": "Фарғона вилояти",
+                "uz": "Фарғона вилояти",
+                "ru": "Фарғона вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Фарғона вилояти Camera 001",
+                    "name": {
+                        "ruz": "Фарғона вилояти Camera 001",
+                        "uz": "Фарғона вилояти Camera 001",
+                        "ru": "Фарғона вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Фарғона вилояти Camera 002",
+                    "name": {
+                        "ruz": "Фарғона вилояти Camera 002",
+                        "uz": "Фарғона вилояти Camera 002",
+                        "ru": "Фарғона вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name":"Фарғона вилояти Camera 003",
+                    "name": {
+                        "ruz": "Фарғона вилояти Camera 003",
+                        "uz": "Фарғона вилояти Camera 003",
+                        "ru": "Фарғона вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 5,
-            "name": "Қашқадарё вилояти",
+            "name": {
+                "ruz": "Қашқадарё вилояти",
+                "uz": "Қашқадарё вилояти",
+                "ru": "Қашқадарё вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Қашқадарё вилояти Camera 001",
+                    "name": {
+                        "ruz": "Қашқадарё вилояти Camera 001",
+                        "uz": "Қашқадарё вилояти Camera 001",
+                        "ru": "Қашқадарё вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Қашқадарё вилояти Camera 002",
+                    "name": {
+                        "ruz": "Қашқадарё вилояти Camera 002",
+                        "uz": "Қашқадарё вилояти Camera 002",
+                        "ru": "Қашқадарё вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name":"Қашқадарё вилояти Camera 003",
+                    "name": {
+                        "ruz": "Қашқадарё вилояти Camera 003",
+                        "uz": "Қашқадарё вилояти Camera 003",
+                        "ru": "Қашқадарё вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 6,
-            "name": "Навоий вилояти",
+            "name": {
+                "ruz": "Навоий вилояти",
+                "uz": "Навоий вилояти",
+                "ru": "Навоий вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Навоий вилояти Camera 001",
+                    "name": {
+                        "ruz": "Навоий вилояти Camera 001",
+                        "uz": "Навоий вилояти Camera 001",
+                        "ru": "Навоий вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Навоий вилояти Camera 002",
+                    "name": {
+                        "ruz": "Навоий вилояти Camera 002",
+                        "uz": "Навоий вилояти Camera 002",
+                        "ru": "Навоий вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name":"Навоий вилояти Camera 003",
+                    "name": {
+                        "ruz": "Навоий вилояти Camera 003",
+                        "uz": "Навоий вилояти Camera 003",
+                        "ru": "Навоий вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 7,
-            "name": "Наманган вилояти",
+            "name": {
+                "ruz": "Наманган вилояти",
+                "uz": "Наманган вилояти",
+                "ru": "Наманган вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Наманган вилояти Camera 001",
+                    "name": {
+                        "ruz": "Наманган вилояти Camera 001",
+                        "uz": "Наманган вилояти Camera 001",
+                        "ru": "Наманган вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Наманган вилояти Camera 002",
+                    "name": {
+                        "ruz": "Наманган вилояти Camera 002",
+                        "uz": "Наманган вилояти Camera 002",
+                        "ru": "Наманган вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name": "Наманган вилояти Camera 003",
+                    "name": {
+                        "ruz": "Наманган вилояти Camera 003",
+                        "uz": "Наманган вилояти Camera 003",
+                        "ru": "Наманган вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 8,
-            "name": "Самарқанд вилояти",
+            "name": {
+                "ruz": "Самарқанд вилояти",
+                "uz": "Самарқанд вилояти",
+                "ru": "Самарқанд вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Самарқанд вилояти Camera 001",
+                    "name": {
+                        "ruz": "Самарқанд вилояти Camera 001",
+                        "uz": "Самарқанд вилояти Camera 001",
+                        "ru": "Самарқанд вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Самарқанд вилояти Camera 002",
+                    "name": {
+                        "ruz": "Самарқанд вилояти Camera 002",
+                        "uz": "Самарқанд вилояти Camera 002",
+                        "ru": "Самарқанд вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name": "Самарқанд вилояти Camera 003",
+                    "name": {
+                        "ruz": "Самарқанд вилояти Camera 003",
+                        "uz": "Самарқанд вилояти Camera 003",
+                        "ru": "Самарқанд вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 9,
-            "name": "Сурхондарё вилояти",
+            "name": {
+                "ruz": "Сурхондарё вилояти",
+                "uz": "Сурхондарё вилояти",
+                "ru": "Сурхондарё вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Сурхондарё вилояти Camera 001",
+                    "name": {
+                        "ruz": "Сурхондарё вилояти Camera 001",
+                        "uz": "Сурхондарё вилояти Camera 001",
+                        "ru": "Сурхондарё вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Сурхондарё вилояти Camera 002",
+                    "name": {
+                        "ruz": "Сурхондарё вилояти Camera 002",
+                        "uz": "Сурхондарё вилояти Camera 002",
+                        "ru": "Сурхондарё вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name": "Сурхондарё вилояти Camera 003",
+                    "name": {
+                        "ruz": "Сурхондарё вилояти Camera 003",
+                        "uz": "Сурхондарё вилояти Camera 003",
+                        "ru": "Сурхондарё вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 10,
-            "name": "Сирдарё вилояти",
+            "name": {
+                "ruz": "Сирдарё вилояти",
+                "uz": "Сирдарё вилояти",
+                "ru": "Сирдарё вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Сирдарё вилояти Camera 001",
+                    "name": {
+                        "ruz": "Сирдарё вилояти Camera 001",
+                        "uz": "Сирдарё вилояти Camera 001",
+                        "ru": "Сирдарё вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Сирдарё вилояти Camera 002",
+                    "name": {
+                        "ruz": "Сирдарё вилояти Camera 002",
+                        "uz": "Сирдарё вилояти Camera 002",
+                        "ru": "Сирдарё вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name": "Сирдарё вилояти Camera 003",
+                    "name": {
+                        "ruz": "Сирдарё вилояти Camera 003",
+                        "uz": "Сирдарё вилояти Camera 003",
+                        "ru": "Сирдарё вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 11,
-            "name": "Тошкент вилояти",
+            "name": {
+                "ruz": "Тошкент вилояти",
+                "uz": "Тошкент вилояти",
+                "ru": "Тошкент вилояти"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Тошкент вилояти Camera 001",
+                    "name": {
+                        "ruz": "Тошкент вилояти Camera 001",
+                        "uz": "Тошкент вилояти Camera 001",
+                        "ru": "Тошкент вилояти Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Тошкент вилояти Camera 002",
+                    "name": {
+                        "ruz": "Тошкент вилояти Camera 002",
+                        "uz": "Тошкент вилояти Camera 002",
+                        "ru": "Тошкент вилояти Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name": "Тошкент вилояти Camera 003",
+                    "name": {
+                        "ruz": "Тошкент вилояти Camera 003",
+                        "uz": "Тошкент вилояти Camera 003",
+                        "ru": "Тошкент вилояти Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
         },
         {
             "id": 12,
-            "name": "Қорақалпоғистон Республикаси",
+            "name": {
+                "ruz": "Қорақалпоғистон Республикаси",
+                "uz": "Қорақалпоғистон Республикаси",
+                "ru": "Қорақалпоғистон Республикаси"
+            },
             "cameras": [
                 {
                     "id": 1,
-                    "name": "Қорақалпоғистон Республикаси Camera 001",
+                    "name": {
+                        "ruz": "Қорақалпоғистон Республикаси Camera 001",
+                        "uz": "Қорақалпоғистон Республикаси Camera 001",
+                        "ru": "Қорақалпоғистон Республикаси Camera 001"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 2,
-                    "name": "Қорақалпоғистон Республикаси Camera 002",
+                    "name": {
+                        "ruz": "Қорақалпоғистон Республикаси Camera 002",
+                        "uz": "Қорақалпоғистон Республикаси Camera 002",
+                        "ru": "Қорақалпоғистон Республикаси Camera 002"
+                    },
                     "link": "http://cam.tmbm.uz"
                 },
                 {
                     "id": 3,
-                    "name": "Қорақалпоғистон Республикаси Camera 003",
+                    "name": {
+                        "ruz": "Қорақалпоғистон Республикаси Camera 003",
+                        "uz": "Қорақалпоғистон Республикаси Camera 003",
+                        "ru": "Қорақалпоғистон Республикаси Camera 003"
+                    },
                     "link": "http://cam.tmbm.uz"
                 }
             ]
