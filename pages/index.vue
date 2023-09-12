@@ -24,6 +24,10 @@
 
 <script setup>
 
+useHead({
+    title: "Тиббиёт ва фармацевтика ходимларининг малакасини баҳолаш маркази"
+})
+
 const cameraLink = useCameraLink()
 const selectedRegion = useSelectedRegion()
 

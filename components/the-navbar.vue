@@ -21,20 +21,20 @@
 
                 <div class="flex font-tt-hoves-medium text-base gap-5">
                     <div
-                    class="cursor-pointer opacity-50 hover:opacity-100 transition"
-                    :class="locale === 'ruz' ? 'opacity-100' : ''"
+                    class="cursor-pointer hover:opacity-100 transition"
+                    :class="locale === 'ruz' ? 'opacity-100' : 'opacity-50'"
                     @click="changeLocale('ruz')"
                     >Ўз</div>
 
                     <div
-                    class="cursor-pointer opacity-50 hover:opacity-100 transition"
-                    :class="locale === 'uz' ? 'opacity-100' : ''"
+                    class="cursor-pointer hover:opacity-100 transition"
+                    :class="locale === 'uz' ? 'opacity-100' : 'opacity-50'"
                     @click="changeLocale('uz')"
                     >Uz</div>
 
                     <div
-                    class="cursor-pointer opacity-50 hover:opacity-100 transition"
-                    :class="locale === 'ru' ? 'opacity-100' : ''"
+                    class="cursor-pointer hover:opacity-100 transition"
+                    :class="locale === 'ru' ? 'opacity-100' : 'opacity-50'"
                     @click="changeLocale('ru')"
                     >Ру</div>
                 </div>
