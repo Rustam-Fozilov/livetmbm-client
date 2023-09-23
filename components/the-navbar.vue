@@ -6,13 +6,13 @@
                     <a href="https://tmbm.uz/" target="_blank">
                         <span class="flex gap-5 items-center">
                             <img src="~/assets/logo-tmbm.svg" alt="logo">
-                            <div class="font-tt-hoves-medium text-base w-60">
+                            <div class="font-tt-hoves-medium text-base w-[650px]">
                                 {{
                                     locale === 'ruz' ?
                                     'Тиббиёт ва фармацевтика ходимларининг малакасини баҳолаш маркази' :
                                     locale === 'uz' ?
-                                    'Tibbiyot va farmatsevtika xodimlarining malakasini baholash markazi' :
-                                    'Центр оценки компетентности медицинских и фармацевтических работников'
+                                    "Tibbiyot va farmasevtika xodimlarining malakasini baholash markazi" :
+                                    'Центр оценки квалификации медицинских и фармацевтических работников'
                                 }}
                             </div>
                         </span>

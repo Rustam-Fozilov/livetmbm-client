@@ -9,8 +9,8 @@
                                 locale === 'ruz' ?
                                 'Тиббиёт ва фармацевтика ходимларининг малакасини баҳолаш маркази' :
                                 locale === 'uz' ?
-                                'Tibbiyot va farmatsevtika xodimlarining malakasini baholash markazi' :
-                                'Центр оценки компетентности медицинских и фармацевтических работников'
+                                "Tibbiyot va farmasevtika xodimlarining malakasini baholash markazi" :
+                                'Центр оценки квалификации медицинских и фармацевтических работников'
                             }}
                         </div>
                         <div class="mt-12 mb-3">
@@ -39,7 +39,7 @@
                             </div>
 
                             <div>
-                                <a href="https://facebook.com">
+                                <a href="https://facebook.com/tibtoifa/">
                                     <span class="flex gap-2 items-center">
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
@@ -52,7 +52,20 @@
                             </div>
 
                             <div>
-                                <a href="https://t.me">
+                                <a href="https://www.instagram.com/tibtoifa/">
+                                    <span class="flex gap-2 items-center">
+                                        <div>
+                                           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,255.99265,255.99265" width="30px" height="30px"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,255.99265v-255.99265h255.99265v255.99265z" id="bgRectangle">
+                                            </path></g><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.17,0 -13,5.83 -13,13v18c0,7.17 5.83,13 13,13h18c7.17,0 13,-5.83 13,-13v-18c0,-7.17 -5.83,-13 -13,-13zM37,11c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2zM25,14c6.07,0 11,4.93 11,11c0,6.07 -4.93,11 -11,11c-6.07,0 -11,-4.93 -11,-11c0,-6.07 4.93,-11 11,-11zM25,16c-4.96,0 -9,4.04 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9c0,-4.96 -4.04,-9 -9,-9z"></path></g></g>
+                                            </svg>
+                                        </div>
+                                        <div class="font-tt-hoves-medium text-base">Instagram</div>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="https://t.me/tibtoifa/">
                                     <span class="flex gap-2 items-center">
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">

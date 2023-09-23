@@ -21,12 +21,12 @@
         <div id="video-links" class="my-2">
             <div class="flex gap-5 justify-center">
 
-                <div class="w-24 h-auto" v-for="camera in selectedRegion.cameras">
+                <div class="w-24 h-auto" v-for="camera in selectedRegion.cameras" :key="camera.id">
                     <div @click="changeCameraLink(camera.id)" class=" w-24 h-14 cursor-pointer" :class="camera.id === selectedCameraId ? 'opacity-50' : ''">
                         <img class="w-full h-full object-cover border-2" src="../assets/images/cover.png" alt="video poster">
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
