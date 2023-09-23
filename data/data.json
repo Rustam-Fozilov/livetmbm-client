@@ -15,7 +15,8 @@
                         "uz": "Markaz Camera 001",
                         "ru": "Центр Camera 001"
                     },
-                    "link": "https://toshkent4.tmbm.uz/"
+                    "link": "https://toshkent4.tmbm.uz/",
+                    "isActive": true
                 },
                 {
                     "id": 2,

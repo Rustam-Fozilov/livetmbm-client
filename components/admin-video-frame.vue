@@ -43,6 +43,34 @@
 
 <script setup>
 import data from '~/data/data.json'
+// import www from '~/data/www.json'
+// import axios from 'axios'
+// import www from '~/helpers/help'
+
+// const { info } = www()
+// console.log(info)
+
+// const { data } = await useFetch('/api/jsonData')
+// console.log(data)
+
+const regions = ref(null)
+
+
+onMounted(() => {
+    console.log('mounted')
+    
+    axios
+    .patch('/_nuxt/data/data.json', {
+        body: JSON.stringify(www)
+    })
+    .then(res => {
+        console.log(res.data)
+    })
+    .catch(err => {
+        console.log(err)
+    })
+})
+
 
 
 const locale = useLocale()

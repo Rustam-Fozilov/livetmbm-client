@@ -1,0 +1,51 @@
+{
+    "regions": [
+        {
+            "id": 1,
+            "name": {
+                "ruz": "Марказ",
+                "uz": "Markaz",
+                "ru": "Центр"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Марказ Camera 001",
+                        "uz": "Markaz Camera 001",
+                        "ru": "Центр Camera 001"
+                    },
+                    "link": "https://toshkent4.tmbm.uz/"
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Марказ Camera 002",
+                        "uz": "Markaz Camera 002",
+                        "ru": "Центр Camera 002"
+                    },
+                    "link": "https://toshkent2.tmbm.uz"
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Марказ Camera 003",
+                        "uz": "Markaz Camera 003",
+                        "ru": "Центр Camera 003"
+                    },
+                    "link": "https://toshkent3.tmbm.uz"
+                },
+                {
+                    "id": 4,
+                    "name": {
+                        "ruz": "Марказ Camera 004",
+                        "uz": "Markaz Camera 004",
+                        "ru": "Центр Camera 004"
+                    },
+                    "link": "https://toshkent1.tmbm.uz"
+                }
+            ]
+        }
+
+    ]
+}
