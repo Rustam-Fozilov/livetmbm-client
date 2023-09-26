@@ -15,7 +15,8 @@
                         "uz": "Markaz Camera 001",
                         "ru": "Центр Camera 001"
                     },
-                    "link": "https://toshkent4.tmbm.uz/"
+                    "link": "https://toshkent4.tmbm.uz/",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -24,7 +25,8 @@
                         "uz": "Markaz Camera 002",
                         "ru": "Центр Camera 002"
                     },
-                    "link": "https://toshkent2.tmbm.uz"
+                    "link": "https://toshkent2.tmbm.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -33,7 +35,8 @@
                         "uz": "Markaz Camera 003",
                         "ru": "Центр Camera 003"
                     },
-                    "link": "https://toshkent3.tmbm.uz"
+                    "link": "https://toshkent3.tmbm.uz",
+                    "isActive": true
                 },
                 {
                     "id": 4,
@@ -42,7 +45,8 @@
                         "uz": "Markaz Camera 004",
                         "ru": "Центр Camera 004"
                     },
-                    "link": "https://toshkent1.tmbm.uz"
+                    "link": "https://toshkent1.tmbm.uz",
+                    "isActive": true
                 }
             ]
         },
@@ -62,7 +66,8 @@
                         "uz": "Andijon Camera 001",
                         "ru": "Андижан Camera 001"
                     },
-                    "link": "https://andijon1.dtsj.uz"
+                    "link": "https://andijon1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -71,7 +76,8 @@
                         "uz": "Andijon Camera 002",
                         "ru": "Андижан Camera 002"
                     },
-                    "link": "https://andijon2.dtsj.uz"
+                    "link": "https://andijon2.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -80,7 +86,8 @@
                         "uz": "Andijon Camera 003",
                         "ru": "Андижан Camera 003"
                     },
-                    "link": "https://andijon3.dtsj.uz"
+                    "link": "https://andijon3.dtsj.uz",
+                    "isActive": true
                 }
             ]
         },
@@ -99,7 +106,8 @@
                         "uz": "Buxoro Camera 001",
                         "ru": "Бухара Camera 001"
                     },
-                    "link": "https://buxoro1.tmbm.uz"
+                    "link": "https://buxoro1.tmbm.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -108,7 +116,8 @@
                         "uz": "Buxoro Camera 002",
                         "ru": "Бухара Camera 002"
                     },
-                    "link": "https://buxoro2.tmbm.uz"
+                    "link": "https://buxoro2.tmbm.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -117,7 +126,8 @@
                         "uz": "Buxoro Camera 003",
                         "ru": "Бухара Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
             ]
         },
@@ -136,7 +146,8 @@
                         "uz": "Farg'ona Camera 001",
                         "ru": "Фергана Camera 001"
                     },
-                    "link": "https://fargona1.dtsj.uz"
+                    "link": "https://fargona1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -145,7 +156,8 @@
                         "uz": "Farg'ona Camera 002",
                         "ru": "Фергана Camera 002"
                     },
-                    "link": "https://fargona2.dtsj.uz"
+                    "link": "https://fargona2.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -154,7 +166,8 @@
                         "uz": "Farg'ona Camera 003",
                         "ru": "Фергана Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
             ]
         },
@@ -173,7 +186,8 @@
                         "uz": "Qashqadaryo Camera 001",
                         "ru": "Кашкадарья Camera 001"
                     },
-                    "link": "https://qashqadaryo1.dtsj.uz"
+                    "link": "https://qashqadaryo1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -182,7 +196,8 @@
                         "uz": "Qashqadaryo Camera 002",
                         "ru": "Кашкадарья Camera 002"
                     },
-                    "link": "https://qashqadaryo2.dtsj.uz"
+                    "link": "https://qashqadaryo2.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -191,7 +206,8 @@
                         "uz": "Qashqadaryo Camera 003",
                         "ru": "Кашкадарья Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
             ]
         },
@@ -210,7 +226,8 @@
                         "uz": "Navoiy Camera 001",
                         "ru": "Навоий Camera 001"
                     },
-                    "link": "https://navoiy1.dtsj.uz"
+                    "link": "https://navoiy1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -219,7 +236,8 @@
                         "uz": "Navoiy Camera 002",
                         "ru": "Навоий Camera 002"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -228,7 +246,8 @@
                         "uz": "Navoiy Camera 003",
                         "ru": "Навоий Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
             ]
         },
@@ -247,7 +266,8 @@
                         "uz": "Namangan Camera 001",
                         "ru": "Наманган Camera 001"
                     },
-                    "link": "https://namangan1.dtsj.uz"
+                    "link": "https://namangan1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -256,7 +276,8 @@
                         "uz": "Namangan Camera 002",
                         "ru": "Наманган Camera 002"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -265,7 +286,8 @@
                         "uz": "Namangan Camera 003",
                         "ru": "Наманган Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
 
             ]
@@ -285,7 +307,8 @@
                         "uz": "Samarqand Camera 001",
                         "ru": "Самарканд Camera 001"
                     },
-                    "link": "https://samarqand1.dtsj.uz"
+                    "link": "https://samarqand1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -294,7 +317,8 @@
                         "uz": "Samarqand Camera 002",
                         "ru": "Самарканд Camera 002"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -303,7 +327,8 @@
                         "uz": "Samarqand Camera 003",
                         "ru": "Самарканд Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
             ]
         },
@@ -322,7 +347,8 @@
                         "uz": "Surxondaryo Camera 001",
                         "ru": "Сурхандарья Camera 001"
                     },
-                    "link": "https://surxondaryo1.tmbm.uz"
+                    "link": "https://surxondaryo1.tmbm.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -331,7 +357,8 @@
                         "uz": "Surxondaryo Camera 002",
                         "ru": "Сурхандарья Camera 002"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -340,7 +367,8 @@
                         "uz": "Surxondaryo Camera 003",
                         "ru": "Сурхандарья Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
             ]
         },
@@ -359,7 +387,8 @@
                         "uz": "Sirdaryo Camera 001",
                         "ru": "Сирдарья Camera 001"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -368,7 +397,8 @@
                         "uz": "Sirdaryo Camera 002",
                         "ru": "Сирдарья Camera 002"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -377,7 +407,8 @@
                         "uz": "Sirdaryo Camera 003",
                         "ru": "Сирдарья Camera 003"
                     },
-                    "link": ""
+                    "link": "",
+                    "isActive": true
                 }
             ]
         },
@@ -396,7 +427,8 @@
                         "uz": "Xorazm Camera 001",
                         "ru": "Хорeзм Camera 001"
                     },
-                    "link": "https://xorazm1.tmbm.uz"
+                    "link": "https://xorazm1.tmbm.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -405,7 +437,8 @@
                         "uz": "Xorazm Camera 002",
                         "ru": "Хорезм Camera 002"
                     },
-                    "link": "https://xorazm2.tmbm.uz"
+                    "link": "https://xorazm2.tmbm.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -414,7 +447,8 @@
                         "uz": "Xorazm Camera 003",
                         "ru": "Хорезм Camera 003"
                     },
-                    "link": "https://xorazm3.tmbm.uz"
+                    "link": "https://xorazm3.tmbm.uz",
+                    "isActive": true
                 }
             ]
         },
@@ -433,7 +467,8 @@
                         "uz": "Jizzax Camera 001",
                         "ru": "Джиззах Camera 001"
                     },
-                    "link": "https://jizzax1.dtsj.uz"
+                    "link": "https://jizzax1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -442,7 +477,8 @@
                         "uz": "Jizzax Camera 002",
                         "ru": "Джиззах Camera 002"
                     },
-                    "link": "https://jizzax2.dtsj.uz"
+                    "link": "https://jizzax2.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -451,7 +487,8 @@
                         "uz": "Jizzax Camera 003",
                         "ru": "Джиззах Camera 003"
                     },
-                    "link": "https://jizzax3.dtsj.uz"
+                    "link": "https://jizzax3.dtsj.uz",
+                    "isActive": true
                 }
             ]
         },
@@ -470,7 +507,8 @@
                         "uz": "Qoraqalpog'iston Camera 001",
                         "ru": "Каракалпакистан Camera 001"
                     },
-                    "link": "https://qoraqalpoq1.dtsj.uz"
+                    "link": "https://qoraqalpoq1.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 2,
@@ -479,7 +517,8 @@
                         "uz": "Qoraqalpog'iston Camera 002",
                         "ru": "Каракалпакистан Camera 002"
                     },
-                    "link": "https://qoraqalpoq2.dtsj.uz"
+                    "link": "https://qoraqalpoq2.dtsj.uz",
+                    "isActive": true
                 },
                 {
                     "id": 3,
@@ -488,7 +527,8 @@
                         "uz": "Qoraqalpog'iston Camera 003",
                         "ru": "Каракалпакистан Camera 003"
                     },
-                    "link": "https://qoraqalpoq3.dtsj.uz"
+                    "link": "https://qoraqalpoq3.dtsj.uz",
+                    "isActive": true
                 }
             ]
         }

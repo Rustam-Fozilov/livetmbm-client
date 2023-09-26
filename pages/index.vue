@@ -23,6 +23,7 @@
   </template>
   
   <script setup>
+
   const cameraLink = useCameraLink()
   const selectedRegion = useSelectedRegion()
   

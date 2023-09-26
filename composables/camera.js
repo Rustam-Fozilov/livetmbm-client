@@ -19,3 +19,7 @@ export const useSelectedRegion = () => {
 export const useSelectedCameraId = () => {
     return useState('selected_camera_id', () => data.regions[0].cameras[0].id)
 }
+
+export const useSelectedCamera = () => {
+    return useState('selected_camera', () => data.regions[0].cameras[0])
+}

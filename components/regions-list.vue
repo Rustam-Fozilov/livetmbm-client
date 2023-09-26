@@ -28,6 +28,7 @@ const locale = useLocale()
 const cameraLink = useCameraLink()
 const cameraName = useCameraName()
 const selectedRegion = useSelectedRegion()
+const selectedCamera = useSelectedCamera()
 const selectedCameraId = useSelectedCameraId()
 
 
@@ -36,6 +37,7 @@ const showCamera = (id) => {
     cameraLink.value = data.regions.find(region => region.id === id).cameras[0].link
     cameraName.value = data.regions.find(region => region.id === id).cameras[0].name
     selectedCameraId.value = data.regions.find(region => region.id === id).cameras[0].id
+    selectedCamera.value = data.regions.find(region => region.id === id).cameras[0]
 }
 
 </script>

@@ -8,7 +8,7 @@
                 scrolling="no"
                 width="100%"
                 height="100%"
-                :src="videoLink"
+                :src="selectedCamera.isActive === true ? videoLink : ''"
                 frameborder="0"
                 allowfullscreen
                 allow="autoplay"
@@ -35,11 +35,13 @@
 
 <script setup>
 
-
+const selectedCamera = useSelectedCamera()
 const locale = useLocale()
 const cameraLink = useCameraLink()
 const cameraName = useCameraName()
 const selectedCameraId = useSelectedCameraId()
+
+console.log(selectedCamera);
 
 
 const props = defineProps({
@@ -56,6 +58,7 @@ const props = defineProps({
 const changeCameraLink = (id) => {
     cameraLink.value = props.selectedRegion.cameras.find(camera => camera.id === id).link
     cameraName.value = props.selectedRegion.cameras.find(camera => camera.id === id).name
+    selectedCamera.value = props.selectedRegion.cameras.find(camera => camera.id === id)
     selectedCameraId.value = id
 
     const element = document.getElementById('frame-area')
