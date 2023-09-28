@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      serverUrl: process.env.NUXT_SERVER_URL,
+    }
+  },
 })
