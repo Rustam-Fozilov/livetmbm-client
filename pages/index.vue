@@ -7,7 +7,7 @@
 
       <div class="container mt-10 flex justify-between gap-5 lg:flex-col">
         <div class="w-1/4 lg:order-2 lg:w-full order-1">
-          <regions-list :regions="regions"/>
+          <regions-list/>
         </div>
 
         <div class="w-3/4 lg:order-1 lg:w-full order-2">

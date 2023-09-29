@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      serverUrl: process.env.NUXT_SERVER_URL,
+      serverUrl: process.env.NUXT_SERVER_URL
     }
   },
 })
