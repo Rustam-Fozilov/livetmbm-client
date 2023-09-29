@@ -44,16 +44,16 @@
                         </svg>
                     </div>
                     <div>
-                        <input v-model="name" type="text" placeholder="name" class=" bg-soft-white border border-black border-opacity-20 px-3 py-2 outline-none">
+                        <input v-model="name" type="text" placeholder="name" class="w-full bg-soft-white border border-black border-opacity-20 px-3 py-2 outline-none">
                     </div>
                     <div>
-                        <input v-model="email" type="text" placeholder="email" class=" bg-soft-white border border-black border-opacity-20 px-3 py-2 outline-none">
+                        <input v-model="email" type="text" placeholder="email" class="w-full bg-soft-white border border-black border-opacity-20 px-3 py-2 outline-none">
                     </div>
                     <div>
-                        <input v-model="password" type="password" placeholder="password" class=" bg-soft-white border border-black border-opacity-20 px-3 py-2 outline-none">
+                        <input v-model="password" type="password" placeholder="password" class="w-full bg-soft-white border border-black border-opacity-20 px-3 py-2 outline-none">
                     </div>
                     <div>
-                        <input @click="addUser" value="OK " type="submit" class="bg-black text-white border px-3 py-2 outline-none cursor-pointer">
+                        <input @click="addUser" value="OK " type="submit" class="w-full bg-black text-white border px-3 py-2 outline-none cursor-pointer">
                     </div>
                     <div v-if="isUserAdded" class="text-green-500">
                         Фойдаланувчи муваффақиятли қўшилди
@@ -78,6 +78,7 @@ const isUserSuperAdmin = ref(false)
 const error = ref(false)
 const isUserAdded = ref(false)
 
+
 const name = ref('')
 const email = ref('')
 const password = ref('')
@@ -86,6 +87,7 @@ const password = ref('')
 if (authToken.value === null) {
     router.push('/admin/login')
 }
+
 
 axios
     .get(`${config.public.serverUrl}/api/users`, {
@@ -139,10 +141,12 @@ const addUser = () => {
         )
         .then((res) => {
             isUserAdded.value = true
+            error.value = false
         })
         .catch((err) => {
             console.log(err)
             error.value = true
+            isUserAdded.value = false
         })
 }
 
