@@ -2,7 +2,7 @@
     <div>
         <div v-if="authToken">
             <div class="container flex items-center justify-start font-tt-hoves-medium text-[32px] mt-7">
-                <div class="w-1/4 flex justify-between items-center">
+                <div class="w-1/4 flex justify-between items-center md:flex-col md:items-start md:gap-3">
                     <div>
                         Admin panel
                     </div>
