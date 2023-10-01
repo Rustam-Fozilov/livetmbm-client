@@ -1,14 +1,29 @@
 <template>
     <div>
-        <div class="font-tt-hoves-medium text-base">
-            {{ locale === 'ruz' ? selectedCamera.name.ruz : locale === 'uz' ? selectedCamera.name.uz : selectedCamera.name.ru }}
+        <div class="flex justify-between">
+            <div class="font-tt-hoves-medium text-base">
+                {{ locale === 'ruz' ? selectedCamera.name.ruz : locale === 'uz' ? selectedCamera.name.uz : selectedCamera.name.ru }}
+            </div>
+            <div class="flex gap-5">
+                <div @click="toggleCamera">
+                    <label class="switch mb-3">
+                        <input id="camera-switch" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div @click="openEditModal" class="cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" viewBox="0 0 23 25" fill="none">
+                    <path d="M4.36233 17.489L17.3216 4.79298L15.5148 3.0229L2.55556 15.7189V17.489H4.36233ZM5.42161 19.9927H0V14.6812L14.6114 0.366518C14.851 0.131837 15.176 0 15.5148 0C15.8536 0 16.1785 0.131837 16.4182 0.366518L20.033 3.90794C20.2725 4.14269 20.4071 4.46104 20.4071 4.79298C20.4071 5.12492 20.2725 5.44327 20.033 5.67803L5.42161 19.9927ZM0 22.4963H23V25H0V22.4963Z" fill="black"/>
+                    </svg>
+                </div>
+                <div @click="openDeleteModal" class="cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                    <path d="M14.1429 7.33333V19.5556H3.85714V7.33333H14.1429ZM12.2143 0H5.78571L4.5 1.22222H0V3.66667H18V1.22222H13.5L12.2143 0ZM16.7143 4.88889H1.28571V19.5556C1.28571 20.9 2.44286 22 3.85714 22H14.1429C15.5571 22 16.7143 20.9 16.7143 19.5556V4.88889Z" fill="black"/>
+                    </svg>
+                </div>
+            </div>
         </div>
-        <div @click="toggleCamera">
-            <label class="switch mb-3">
-                <input id="camera-switch" type="checkbox">
-                <span class="slider round"></span>
-            </label>
-        </div>
+        
         <div id="frame-area" class="h-[650px] w-full lg-frame-height">
             <iframe
                 scrolling="no"
@@ -34,6 +49,11 @@
                 </div>
 
             </div>
+        </div>
+
+        <div>
+            <edit-camera-dialog />
+            <delete-camera-dialog />
         </div>
 
     </div>
@@ -131,6 +151,17 @@ const toggleCamera = () => {
         .catch((err) => {
             console.log(err)
         })
+}
+
+
+const openEditModal = () => {
+    const dialog = document.getElementById('edit-camera-dialog')
+    dialog.showModal()
+}
+
+const openDeleteModal = () => {
+    const dialog = document.getElementById('delete-camera-dialog')
+    dialog.showModal()
 }
 
 </script>
