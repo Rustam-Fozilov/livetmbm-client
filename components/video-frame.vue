@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div class="font-tt-hoves-medium text-base">
+        <div v-if="selectedCamera" class="font-tt-hoves-medium text-base">
             {{ locale === 'ruz' ? selectedCamera.name.ruz : locale === 'uz' ? selectedCamera.name.uz : selectedCamera.name.ru }}
         </div>
-        <div id="frame-area" class="h-[650px] w-full lg-frame-height">
+        <div v-if="selectedCamera" id="frame-area" class="h-[650px] w-full lg-frame-height">
             <iframe
                 scrolling="no"
                 width="100%"
@@ -72,7 +72,7 @@ await axios
   })
 
 
-await axios
+ await axios
   .get(`${config.public.serverUrl}/api/cameras`)
   .then((res) => {
     allCameras.value = res.data
@@ -81,8 +81,9 @@ await axios
     console.log(err)
   })
 
-
-regionCameras.value = allCameras.value.filter((item) => item.region.id === selectedRegion.value.id)
+  if (allCameras.value) {
+    regionCameras.value = allCameras.value.filter((item) => item.region.id === selectedRegion.value.id)
+  }
 
 
 const changeCameraLink = (id) => {
