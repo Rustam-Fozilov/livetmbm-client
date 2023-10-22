@@ -10,7 +10,7 @@
                 >
                     <div class="py-5 px-7">
                         {{
-                            locale === 'ruz' ? region.name.ruz : locale === 'uz' ? region.name.uz : region.name.ru
+                          locale === 'ruz' ? region.name.ruz : locale === 'uz' ? region.name.uz : region.name.ru
                         }}
                     </div>
                     <div v-if="index !== regions.length - 1" class="h-[1px] w-full bg-black opacity-20"></div>
@@ -34,7 +34,19 @@ const selectedRegion = useSelectedRegion()
 const selectedCamera = useSelectedCamera()
 
 
-axios
+onUpdated( async () => {
+  await axios
+  .get(`${config.public.serverUrl}/api/cameras`)
+  .then((res) => {
+    allCameras.value = res.data
+  })
+  .catch((err) => {
+    console.log(err)
+  })
+})
+
+
+await axios
   .get(`${config.public.serverUrl}/api/regions`)
   .then((res) => {
     regions.value = res.data
@@ -55,11 +67,20 @@ await axios
   })
 
 
-const showCamera = (id) => {
-    selectedRegion.value = regions.value.find(region => region.id === id)
-    cameraLink.value = allCameras.value.find(camera => camera.region.id === id).link
-    selectedCamera.value = allCameras.value.find(camera => camera.region.id === id)
-    regionCameras.value = allCameras.value.filter((item) => item.region.id === selectedRegion.value.id)
+const showCamera = async (id) => {
+  await axios
+    .get(`${config.public.serverUrl}/api/cameras`)
+    .then((res) => {
+      allCameras.value = res.data
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+
+  selectedRegion.value = regions.value.find(region => region.id === id)
+  cameraLink.value = allCameras.value.find(camera => camera.region.id === id).link
+  selectedCamera.value = allCameras.value.find(camera => camera.region.id === id)
+  regionCameras.value = allCameras.value.filter((item) => item.region.id === selectedRegion.value.id)
 }
 
 </script>

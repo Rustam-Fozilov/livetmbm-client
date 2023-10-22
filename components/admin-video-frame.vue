@@ -86,45 +86,56 @@ onMounted(() => {
 })
 
 
-onUpdated(() => {
-  selectedCamera.value = selectedCamera.value
-  selectedRegion.value = selectedRegion.value
-  cameraLink.value = cameraLink.value
-  regionCameras.value = regionCameras.value
+onUpdated( async () => {
+    selectedCamera.value = selectedCamera.value
+    selectedRegion.value = selectedRegion.value
+    cameraLink.value = cameraLink.value
+    regionCameras.value = regionCameras.value
 
-  const cameraSwitch = document.getElementById('camera-switch')
-  cameraSwitch.checked = selectedCamera.value.is_active
+    const cameraSwitch = document.getElementById('camera-switch')
+    cameraSwitch.checked = selectedCamera.value.is_active
 })
 
 
 await axios
-  .get(`${config.public.serverUrl}/api/regions`)
-  .then((res) => {
-    selectedRegion.value = res.data[0]
-  })
-  .catch((err) => {
-    console.log(err)
-  })
+    .get(`${config.public.serverUrl}/api/regions`)
+    .then((res) => {
+        selectedRegion.value = res.data[0]
+    })
+    .catch((err) => {
+        console.log(err)
+    })
 
 
 await axios
-  .get(`${config.public.serverUrl}/api/cameras`)
-  .then((res) => {
-    allCameras.value = res.data
-  })
-  .catch((err) => {
-    console.log(err)
-  })
+    .get(`${config.public.serverUrl}/api/cameras`)
+    .then((res) => {
+        allCameras.value = res.data
+    })
+    .catch((err) => {
+        console.log(err)
+    })
 
 
 regionCameras.value = allCameras.value.filter((item) => item.region.id === selectedRegion.value.id)
 
 
-const changeCameraLink = (id) => {
+const changeCameraLink = async (id) => {
+    await axios
+        .get(`${config.public.serverUrl}/api/cameras`)
+        .then((res) => {
+            allCameras.value = res.data
+        })
+        .catch((err) => {
+            console.log(err)
+        })
+
+
+    regionCameras.value = allCameras.value.filter((item) => item.region.id === selectedRegion.value.id)
+
     cameraLink.value = regionCameras.value.find((item) => item.id === id).link
     selectedCamera.value = regionCameras.value.find((item) => item.id === id)
     
-
     const element = document.getElementById('frame-area')
 
     if(element.classList.contains('frame-animation')) {

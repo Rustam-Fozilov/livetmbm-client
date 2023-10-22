@@ -67,7 +67,6 @@ axios
     .get(`${config.public.serverUrl}/api/regions`)
     .then((res) => {
         allRegions.value = res.data
-        console.log(allRegions.value);
     })
     .catch((err) => {
         console.log(err)

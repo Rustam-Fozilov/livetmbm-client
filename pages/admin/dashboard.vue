@@ -7,6 +7,12 @@
                         Admin panel
                     </div>
                     <div class="flex gap-5 items-center">
+                        <div @click="toggleAllCameras">
+                            <label class="switch mt-5">
+                                <input id="camera-switch-all" type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
                         <div v-if="isUserSuperAdmin" @click="openAddUserModal" class="cursor-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
                             <path d="M9.65385 9.65384C12.0435 9.65384 13.9808 7.71661 13.9808 5.32692C13.9808 2.93723 12.0435 1 9.65385 1C7.26416 1 5.32693 2.93723 5.32693 5.32692C5.32693 7.71661 7.26416 9.65384 9.65385 9.65384Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -24,13 +30,13 @@
 
             <div>
                 <div class="container mt-10 flex justify-between gap-5 lg:flex-col">
-                <div class="w-1/4 lg:order-2 lg:w-full order-1">
-                    <regions-list/>
-                </div>
-        
-                <div class="w-3/4 lg:order-1 lg:w-full order-2">
-                    <admin-video-frame :videoLink="cameraLink" />
-                </div>
+                    <div class="w-1/4 lg:order-2 lg:w-full order-1">
+                        <regions-list/>
+                    </div>
+            
+                    <div class="w-3/4 lg:order-1 lg:w-full order-2">
+                        <admin-video-frame :videoLink="cameraLink" />
+                    </div>
                 </div>
         
                 <div>
@@ -122,7 +128,6 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router'
 import axios from 'axios'
 
 
@@ -137,6 +142,7 @@ const error_camera = ref(false)
 const isUserAdded = ref(false)
 const isCameraAdded = ref(false)
 const allRegions = ref(null)
+const allCameras = ref(null)
 
 
 const name = ref('')
@@ -149,6 +155,41 @@ const cameraNameUz = ref('')
 const cameraNameRu = ref('')
 const newCameraLink = ref('')
 const cameraRegionId = ref('') 
+
+
+onMounted( async () => {
+    await axios
+        .get(`${config.public.serverUrl}/api/cameras`)
+        .then((res) => {
+            allCameras.value = res.data
+        })
+        .catch((err) => {
+            console.log(err)
+        })
+        
+        allCameras.value.forEach(element => {
+            if (!element.is_active) {
+                document.getElementById('camera-switch-all').checked = false
+            } else {
+                document.getElementById('camera-switch-all').checked = true
+            }
+        });
+})
+
+
+onUpdated( async () => {
+    if (cameraLink.value === null) {
+        await axios
+        .get(`${config.public.serverUrl}/api/cameras`)
+        .then((res) => {
+            cameraLink.value = res.data[0].link
+            selectedCamera.value = res.data[0]
+        })
+        .catch((err) => {
+            console.log(err)
+        })
+    }
+})
 
 
 if (authToken.value === null) {
@@ -272,6 +313,24 @@ const addCamera = () => {
             setTimeout(() => {
                 error_camera.value = false
             }, 1500)
+        })
+}
+
+
+const toggleAllCameras = () => {
+    const cameraSwitch = document.getElementById('camera-switch-all')
+    cameraSwitch.checked = !cameraSwitch.checked
+
+    axios
+        .post(`${config.public.serverUrl}/api/cameras/toggle-all`, {
+            toggle: cameraSwitch.checked ? 'on' : 'off'
+        })
+        .then((res) => {
+            selectedCamera.value.is_active = cameraSwitch.checked
+            console.log(res);
+        })
+        .catch((err) => {
+            console.log(err)
         })
 }
 
